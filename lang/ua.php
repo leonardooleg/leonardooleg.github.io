@@ -25,7 +25,7 @@ $lang = [
     <a  target="_blank"href="https://web.archive.org/web/20141218172026/http://more-zatoka.com.ua/">База відпочинку в Затоці</a>. Далі декілька проектів на CMS Joomla. 
     <br>З 2015 починаю розробляти <a href="https://csgofast.com/"> CS GO - ругетки</a> на node.js та mongoDB. Парсинг данних та емуляція браузера.
     <br>З 2016 починаю розробляти плагіни,шаблони для CSM DLE, Wordpress, Opencart і  Drupal та налаштування і встановлення їх на сервер VPS. 
-    <br> Далі <a target="_blank" href="//images/works/php.jpg"> різнопланові</a> проекти на чистому PHP з "нуля" (Back-End та Front end, плюс <a target="_blank" href="//images/works/php_admin.jpg">адмін-панелі</a>).
+    <br> Далі <a target="_blank" href="/images/works/php.jpg"> різнопланові</a> проекти на чистому PHP з "нуля" (Back-End та Front end, плюс <a target="_blank" href="/images/works/php_admin.jpg">адмін-панелі</a>).
      <br>З 2018 розробив 2 інтернет магазина на фреймворк Laravel: <a  target="_blank" href="/images/works/mnogoprintov.jpg"> магазин футболок </a>, 
       <a  target="_blank" href="https://silkandlace.ru/"> магазин білизни </a>(закінчений на 96%). Також пишу розширення для 
       <a href="https://chrome.google.com/webstore/detail/converter-karbo/hnggpcooojndddmaeblhcpgcmfakejpb?hl=uk"> Браузера </a> та Телеграм ботів.

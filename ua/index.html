@@ -12,6 +12,7 @@
     <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="/styles/shards-dashboards.1.1.0.css">
     <link rel="stylesheet" href="/styles/extras.1.1.0.min.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
 </head>
 <body class="h-100">
 
@@ -122,15 +123,13 @@
                                 <span class="d-none d-md-inline-block">Avdeenko Oleg</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-small">
-                                <a class="dropdown-item" href="profile.html">
-                                    <i class="material-icons">&#xE7FD;</i> Profile</a>
-                                <a class="dropdown-item" href="works.html">
-                                    <i class="material-icons">vertical_split</i> Blog Posts</a>
-                                <a class="dropdown-item" href="add-new-post.html">
-                                    <i class="material-icons">note_add</i> Add New Post</a>
+                                <a class="dropdown-item" href="/ua/profile.html">
+                                    <i class="material-icons">&#xE7FD;</i> Профіль</a>
+                                <a class="dropdown-item" href="/ua/works.html">
+                                    <i class="material-icons">vertical_split</i> Проекти</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item text-danger" href="#">
-                                    <i class="material-icons text-danger">&#xE879;</i> Logout </a>
+                                <a class="dropdown-item text-danger" href="/">
+                                    <i class="material-icons text-danger">&#xE879;</i> Вийти </a>
                             </div>
                         </li>
                     </ul>
@@ -255,7 +254,7 @@
                                 <a  target="_blank"href="https://web.archive.org/web/20141218172026/http://more-zatoka.com.ua/">База відпочинку в Затоці</a>. Далі декілька проектів на CMS Joomla.
                                 <br>З 2015 починаю розробляти <a href="https://csgofast.com/"> CS GO - ругетки</a> на node.js та mongoDB. Парсинг данних та емуляція браузера.
                                 <br>З 2016 починаю розробляти плагіни,шаблони для CSM DLE, Wordpress, Opencart і  Drupal та налаштування і встановлення їх на сервер VPS.
-                                <br> Далі <a target="_blank" href="//images/works/php.jpg"> різнопланові</a> проекти на чистому PHP з "нуля" (Back-End та Front end, плюс <a target="_blank" href="//images/works/php_admin.jpg">адмін-панелі</a>).
+                                <br> Далі <a target="_blank" href="/images/works/php.jpg"> різнопланові</a> проекти на чистому PHP з "нуля" (Back-End та Front end, плюс <a target="_blank" href="/images/works/php_admin.jpg">адмін-панелі</a>).
                                 <br>З 2018 розробив 2 інтернет магазина на фреймворк Laravel: <a  target="_blank" href="/images/works/mnogoprintov.jpg"> магазин футболок </a>,
                                 <a  target="_blank" href="https://silkandlace.ru/"> магазин білизни </a>(закінчений на 96%). Також пишу розширення для
                                 <a href="https://chrome.google.com/webstore/detail/converter-karbo/hnggpcooojndddmaeblhcpgcmfakejpb?hl=uk"> Браузера </a> та Телеграм ботів.
@@ -282,19 +281,11 @@
                         <!-- Quick Post -->
                         <div class="card card-small h-100">
                             <div class="card-header border-bottom">
-                                <h6 class="m-0">New Draft</h6>
+                                <h6 class="m-0">Мій GitHub</h6>
                             </div>
-                            <div class="card-body d-flex flex-column">
-                                <form class="quick-post-form">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Brave New World"> </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" placeholder="Words can be like X-rays if you use them properly..."></textarea>
-                                    </div>
-                                    <div class="form-group mb-0">
-                                        <button type="submit" class="btn btn-accent">Create Draft</button>
-                                    </div>
-                                </form>
+                            <div class="card-body">
+                                <div class="github-widget" data-username="leonardooleg" style="max-width: 100%"> </div>
+                                <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
                             </div>
                         </div>
                         <!-- End Quick Post -->
@@ -304,101 +295,100 @@
                     <div class="col-lg-5 col-md-12 col-sm-12 mb-4">
                         <div class="card card-small blog-comments">
                             <div class="card-header border-bottom">
-                                <h6 class="m-0">Discussions</h6>
+                                <h6 class="m-0">Останні проекти</h6>
                             </div>
                             <div class="card-body p-0">
                                 <div class="blog-comments__item d-flex p-3">
                                     <div class="blog-comments__avatar mr-3">
-                                        <img src="..//images/avatars/1.jpg" alt="User avatar" /> </div>
+                                        <img src="/images/works/googlebot.JPG" alt="php code" /> </div>
                                     <div class="blog-comments__content">
                                         <div class="blog-comments__meta text-muted">
-                                            <a class="text-secondary" href="#">James Johnson</a> on
-                                            <a class="text-secondary" href="#">Hello World!</a>
-                                            <span class="text-muted">– 3 days ago</span>
+                                            <a class="text-secondary" target="_blank" href="/images/works/googlebot.JPG">Відстеження на сайті рефералок</a>
+                                            <span class="text-muted">– 03.06.2021</span>
                                         </div>
-                                        <p class="m-0 my-1 mb-2 text-muted">Well, the way they make shows is, they make one show ...</p>
+                                        <p class="m-0 my-1 mb-2 text-muted">PHP код вістеження рефералок для ботів Гугл і користувачів які зайшли перший раз</p>
                                         <div class="blog-comments__actions">
                                             <div class="btn-group btn-group-sm">
                                                 <button type="button" class="btn btn-white">
                               <span class="text-success">
                                 <i class="material-icons">check</i>
-                              </span> Approve </button>
+                              </span> PHP </button>
                                                 <button type="button" class="btn btn-white">
-                              <span class="text-danger">
-                                <i class="material-icons">clear</i>
-                              </span> Reject </button>
+                              <span class="text-success">
+                                <i class="material-icons">check</i>
+                              </span> session </button>
                                                 <button type="button" class="btn btn-white">
                               <span class="text-light">
-                                <i class="material-icons">more_vert</i>
-                              </span> Edit </button>
+                                <i class="material-icons">check</i>
+                              </span> google bot </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="blog-comments__item d-flex p-3">
                                     <div class="blog-comments__avatar mr-3">
-                                        <img src="..//images/avatars/2.jpg" alt="User avatar" /> </div>
+                                        <img src="/images/works/mnogo_template.jpg" alt="html" /> </div>
                                     <div class="blog-comments__content">
                                         <div class="blog-comments__meta text-muted">
-                                            <a class="text-secondary" href="#">James Johnson</a> on
-                                            <a class="text-secondary" href="#">Hello World!</a>
-                                            <span class="text-muted">– 4 days ago</span>
+                                            <a class="text-secondary" target="_blank" href="/images/works/mnogo_template.jpg">Правки в шаблоні</a> для
+                                            <a class="text-secondary" target="_blank" href="/images/works/mnogo_template.jpg">інтернет магазину футболок</a>
+                                            <span class="text-muted">– 30.05.2021 </span>
                                         </div>
-                                        <p class="m-0 my-1 mb-2 text-muted">After the avalanche, it took us a week to climb out. Now...</p>
+                                        <p class="m-0 my-1 mb-2 text-muted">Внесення правко в шаблон для коректного відображення на iPhone 5s</p>
                                         <div class="blog-comments__actions">
                                             <div class="btn-group btn-group-sm">
                                                 <button type="button" class="btn btn-white">
                               <span class="text-success">
                                 <i class="material-icons">check</i>
-                              </span> Approve </button>
+                              </span> HTML </button>
                                                 <button type="button" class="btn btn-white">
-                              <span class="text-danger">
-                                <i class="material-icons">clear</i>
-                              </span> Reject </button>
+                              <span class="text-success">
+                                <i class="material-icons">check</i>
+                              </span> CSS </button>
                                                 <button type="button" class="btn btn-white">
-                              <span class="text-light">
-                                <i class="material-icons">more_vert</i>
-                              </span> Edit </button>
+                              <span class="text-success">
+                                <i class="material-icons">check</i>
+                              </span> Bootstrap </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="blog-comments__item d-flex p-3">
                                     <div class="blog-comments__avatar mr-3">
-                                        <img src="..//images/avatars/3.jpg" alt="User avatar" /> </div>
+                                        <img src="/images/works/facebook.JPG" alt="facebook" /> </div>
                                     <div class="blog-comments__content">
                                         <div class="blog-comments__meta text-muted">
-                                            <a class="text-secondary" href="#">James Johnson</a> on
-                                            <a class="text-secondary" href="#">Hello World!</a>
-                                            <span class="text-muted">– 5 days ago</span>
+                                            <a class="text-secondary" href="/images/works/facebook.JPG">Facebook API</a> для
+                                            <a class="text-secondary" href="/images/works/facebook.JPG">Facebook Marketplace</a>
+                                            <span class="text-muted">– 10.05.2021</span>
                                         </div>
-                                        <p class="m-0 my-1 mb-2 text-muted">My money's in that office, right? If she start giving me...</p>
+                                        <p class="m-0 my-1 mb-2 text-muted">Проект зайняв 3 місяці. Особистий камінет для мультиакаунтів Facebook Marketplace користувачів для розміщення реклами</p>
                                         <div class="blog-comments__actions">
                                             <div class="btn-group btn-group-sm">
                                                 <button type="button" class="btn btn-white">
                               <span class="text-success">
                                 <i class="material-icons">check</i>
-                              </span> Approve </button>
+                              </span> Facebook API </button>
                                                 <button type="button" class="btn btn-white">
-                              <span class="text-danger">
+                              <span class="text-success">
                                 <i class="material-icons">clear</i>
-                              </span> Reject </button>
+                              </span> Instagram </button>
                                                 <button type="button" class="btn btn-white">
                               <span class="text-light">
                                 <i class="material-icons">more_vert</i>
-                              </span> Edit </button>
+                              </span> Facebook Marketplace </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer border-top">
+                            <!--<div class="card-footer border-top">
                                 <div class="row">
                                     <div class="col text-center view-report">
                                         <button type="submit" class="btn btn-white">View All Comments</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                     <!-- End Discussions Component -->
@@ -406,57 +396,27 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 mb-4">
                         <div class="card card-small">
                             <div class="card-header border-bottom">
-                                <h6 class="m-0">Top Referrals</h6>
+                                <h6 class="m-0">Останній проект сайту</h6>
                             </div>
-                            <div class="card-body p-0">
-                                <ul class="list-group list-group-small list-group-flush">
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">GitHub</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">19,291</span>
-                                    </li>
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">Stack Overflow</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">11,201</span>
-                                    </li>
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">Hacker News</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">9,291</span>
-                                    </li>
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">Reddit</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">8,281</span>
-                                    </li>
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">The Next Web</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">7,128</span>
-                                    </li>
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">Tech Crunch</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">6,218</span>
-                                    </li>
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">YouTube</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">1,218</span>
-                                    </li>
-                                    <li class="list-group-item d-flex px-3">
-                                        <span class="text-semibold text-fiord-blue">Adobe</span>
-                                        <span class="ml-auto text-right text-semibold text-reagent-gray">827</span>
-                                    </li>
-                                </ul>
+                            <div class="card-body p-0 text-center">
+                                <h7 class=" text-accent">Інтернет-магазин на Laravel</h7>
+                               <img src="/images/works/silk.JPG" style="max-width: 100%">
                             </div>
                             <div class="card-footer border-top">
                                 <div class="row">
-                                    <div class="col">
-                                        <select class="custom-select custom-select-sm">
-                                            <option selected>Last Week</option>
-                                            <option value="1">Today</option>
-                                            <option value="2">Last Month</option>
-                                            <option value="3">Last Year</option>
-                                        </select>
-                                    </div>
-                                    <div class="col text-right view-report">
-                                        <a href="#">Full report &rarr;</a>
-                                    </div>
+                                     <span class="d-inline-block">
+                                            <a class="text-fiord-blue">#Laravel</a>
+                                         <a class="text-fiord-blue">#VUE</a>
+                                         <a class="text-fiord-blue">#PHP</a>
+                                      <a class="text-fiord-blue" >#MySql</a>
+                                      <a class="text-fiord-blue" >#SEO</a>
+                                      <a class="text-fiord-blue" >#JavaScript</a>
+                                      <a class="text-fiord-blue" >#дизайн</a>
+                                      <a class="text-fiord-blue" >#ролі користувачів</a>
+                                      <a class="text-fiord-blue" >#особистий кабінет</a>
+                                      <a class="text-fiord-blue" >#корзина</a>
+                                         <a class="text-fiord-blue" >#CSS</a>
+                    </span>
                                 </div>
                             </div>
                         </div>
@@ -467,49 +427,23 @@
             <footer class="main-footer d-flex p-2 px-3 bg-white border-top">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/ua/">Головна</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="/ua/works.html">Мої роботи</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="/ua/profile.html">Мій профіль</a>
                     </li>
                 </ul>
-                <span class="copyright ml-auto my-auto mr-2">Copyright © 2018
-              <a href="https://designrevision.com" rel="nofollow">DesignRevision</a>
+                <span class="copyright ml-auto my-auto mr-2">Copyright © 2021
+              <a href="/" rel="nofollow">LeonardoOleg</a>
             </span>
             </footer>
         </main>
     </div>
 </div>
-<div class="promo-popup animated">
 
-    <div class="pp-intro-bar"> <?=$lang["contact"]?>
-        <span class="close">
-          <i class="material-icons">close</i>
-        </span>
-        <span class="up">
-          <i class="material-icons">keyboard_arrow_up</i>
-        </span>
-    </div>
-    <div class="pp-inner-content">
-        <div class="col">
-            <a href="http://t.me/leonardooleg" target="_blank" type="button" class="mb-2 btn btn-sm btn-primary mr-1">Telegram: leonardooleg</a>
-            <a type="button" class="mb-2 btn btn-sm btn-secondary mr-1" target="_blank" href="skype:leonardooleg?chat">Skype: leonardooleg</a>
-
-            <a type="button" class="mb-2 btn btn-sm btn-success mr-1" href="https://www.upwork.com/freelancers/~015f8fe63b1f642442?viewMode=1" target="_blank">UPwork  </a>
-
-            <a  href="mailto:leonardooleg2@gmail.com" target="_blank" type="button" class="mb-2 btn btn-sm btn-danger mr-1">Email: leonardooleg2@gmail.com</a>
-        </div>
-    </div>
-</div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -519,26 +453,6 @@
 <script src="/scripts/extras.1.1.0.min.js"></script>
 <script src="/scripts/shards-dashboards.1.1.0.min.js"></script>
 <script src="/scripts/app/app-blog-overview.1.1.0.js"></script>
-<!--<script>
 
-    const buttonRU = document.getElementById('ru');
-    buttonRU.addEventListener('click', function () {
-        document.cookie = "lang=ru";
-        document.location.reload();
-        console.log()
-    });
-    /* const buttonEN = document.getElementById('en');
-     buttonEN.addEventListener('click', function () {
-         document.cookie = "lang=en";
-         document.location.reload();
-     });*/
-    const buttonUA = document.getElementById('ua');
-    buttonUA.addEventListener('click', function () {
-        document.cookie = "lang=ua";
-        document.location.reload();
-    });
-
-
-</script>-->
 </body>
 </html>
