@@ -18,10 +18,10 @@ include_once "head.php";
             <div class="row">
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post card-post--1">
-                  <div class="card-post__image" style="background-image: url('images/content-management/1.jpeg');">
+                  <div class="card-post__image" style="background-image: url('/images/content-management/1.jpeg');">
                     <a href="#" class="card-post__category badge badge-pill badge-dark">Business</a>
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/0.jpg');">Written by Anna Kunis</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/0.jpg');">Written by Anna Kunis</a>
                     </div>
                   </div>
                   <div class="card-body">
@@ -35,10 +35,10 @@ include_once "head.php";
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post card-post--1">
-                  <div class="card-post__image" style="background-image: url('images/content-management/2.jpeg');">
+                  <div class="card-post__image" style="background-image: url('/images/content-management/2.jpeg');">
                     <a href="#" class="card-post__category badge badge-pill badge-info">Travel</a>
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/1.jpg');">Written by James Jamerson</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/1.jpg');">Written by James Jamerson</a>
                     </div>
                   </div>
                   <div class="card-body">
@@ -52,10 +52,10 @@ include_once "head.php";
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post card-post--1">
-                  <div class="card-post__image" style="background-image: url('images/content-management/3.jpeg');">
+                  <div class="card-post__image" style="background-image: url('/images/content-management/3.jpeg');">
                     <a href="#" class="card-post__category badge badge-pill badge-primary">Technology</a>
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/2.jpg');">Written by Jimmy Jackson</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/2.jpg');">Written by Jimmy Jackson</a>
                     </div>
                   </div>
                   <div class="card-body">
@@ -69,10 +69,10 @@ include_once "head.php";
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post card-post--1">
-                  <div class="card-post__image" style="background-image: url('images/content-management/4.jpeg');">
+                  <div class="card-post__image" style="background-image: url('/images/content-management/4.jpeg');">
                     <a href="#" class="card-post__category badge badge-pill badge-warning">Technology</a>
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/3.jpg');">Written by John James</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/3.jpg');">Written by John James</a>
                     </div>
                   </div>
                   <div class="card-body">
@@ -88,10 +88,10 @@ include_once "head.php";
             <div class="row">
               <div class="col-lg-6 col-sm-12 mb-4">
                 <div class="card card-small card-post card-post--aside card-post--1">
-                  <div class="card-post__image" style="background-image: url('images/content-management/5.jpeg');">
+                  <div class="card-post__image" style="background-image: url('/images/content-management/5.jpeg');">
                     <a href="#" class="card-post__category badge badge-pill badge-info">Travel</a>
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/0.jpg');">Written by Anna Ken</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/0.jpg');">Written by Anna Ken</a>
                     </div>
                   </div>
                   <div class="card-body">
@@ -105,10 +105,10 @@ include_once "head.php";
               </div>
               <div class="col-lg-6 col-sm-12 mb-4">
                 <div class="card card-small card-post card-post--aside card-post--1">
-                  <div class="card-post__image" style="background-image: url('images/content-management/6.jpeg');">
+                  <div class="card-post__image" style="background-image: url('/images/content-management/6.jpeg');">
                     <a href="#" class="card-post__category badge badge-pill badge-dark">Business</a>
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/1.jpg');">Written by Jamie James</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/1.jpg');">Written by Jamie James</a>
                     </div>
                   </div>
                   <div class="card-body">
@@ -130,7 +130,7 @@ include_once "head.php";
                   </div>
                   <div class="card-footer border-top d-flex">
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/1.jpg');">Written by James Khan</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/1.jpg');">Written by James Khan</a>
                       <div class="d-flex flex-column justify-content-center ml-3">
                         <span class="card-post__author-name">James Khan</span>
                         <small class="text-muted">21 March 2011</small>
@@ -151,7 +151,7 @@ include_once "head.php";
                   </div>
                   <div class="card-footer border-top d-flex">
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/2.jpg');">Written by Anna Kunis</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/2.jpg');">Written by Anna Kunis</a>
                       <div class="d-flex flex-column justify-content-center ml-3">
                         <span class="card-post__author-name">Chris Jones</span>
                         <small class="text-muted">21 March 2011</small>
@@ -172,7 +172,7 @@ include_once "head.php";
                   </div>
                   <div class="card-footer border-top d-flex">
                     <div class="card-post__author d-flex">
-                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/3.jpg');">Written by Anna Kunis</a>
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('/images/avatars/3.jpg');">Written by Anna Kunis</a>
                       <div class="d-flex flex-column justify-content-center ml-3">
                         <span class="card-post__author-name">Mark Jameson</span>
                         <small class="text-muted">21 March 2011</small>
@@ -189,7 +189,7 @@ include_once "head.php";
             <div class="row">
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post h-100">
-                  <div class="card-post__image" style="background-image: url('images/content-management/7.jpeg');"></div>
+                  <div class="card-post__image" style="background-image: url('/images/content-management/7.jpeg');"></div>
                   <div class="card-body">
                     <h5 class="card-title">
                       <a class="text-fiord-blue" href="#">Extremity so attending objection as engrossed</a>
@@ -206,7 +206,7 @@ include_once "head.php";
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post h-100">
-                  <div class="card-post__image" style="background-image: url('images/content-management/8.jpeg');"></div>
+                  <div class="card-post__image" style="background-image: url('/images/content-management/8.jpeg');"></div>
                   <div class="card-body">
                     <h5 class="card-title">
                       <a class="text-fiord-blue" href="#">Bed sincerity yet therefore forfeited his </a>
@@ -223,7 +223,7 @@ include_once "head.php";
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post h-100">
-                  <div class="card-post__image" style="background-image: url('images/content-management/9.jpeg');"></div>
+                  <div class="card-post__image" style="background-image: url('/images/content-management/9.jpeg');"></div>
                   <div class="card-body">
                     <h5 class="card-title">
                       <a class="text-fiord-blue" href="#">Object remark lively all did feebly excuse our</a>
@@ -240,7 +240,7 @@ include_once "head.php";
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <div class="card card-small card-post h-100">
-                  <div class="card-post__image" style="background-image: url('images/content-management/10.jpeg');"></div>
+                  <div class="card-post__image" style="background-image: url('/images/content-management/10.jpeg');"></div>
                   <div class="card-body">
                     <h5 class="card-title">
                       <a class="text-fiord-blue" href="#">His followed carriage proposal entrance</a>

@@ -71,13 +71,13 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-nowrap px-3" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                <img class="user-avatar rounded-circle mr-2" src="images/avatars/0.jpg" alt="User Avatar">
+                                <img class="user-avatar rounded-circle mr-2" src="/images/avatars/0.jpg" alt="User Avatar">
                                 <span class="d-none d-md-inline-block">Avdeenko Oleg</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-small">
-                                <a class="dropdown-item" href="profile.php">
+                                <a class="dropdown-item" href="ua/profile.html">
                                     <i class="material-icons">&#xE7FD;</i> Profile</a>
-                                <a class="dropdown-item" href="works-ua.php">
+                                <a class="dropdown-item" href="ua/works.html">
                                     <i class="material-icons">vertical_split</i> Blog Posts</a>
                                 <a class="dropdown-item" href="add-new-post.html">
                                     <i class="material-icons">note_add</i> Add New Post</a>
